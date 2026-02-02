@@ -13,3 +13,11 @@ Device activity count:
 First entry : 
 Last entry  : 
 -------------------------------------------
+Analysis run on: Mon 02 Feb 2026 07:52:38 AM PST
+Log file analyzed: hospital_data/active_logs/heart_rate.log
+Device activity count:
+      2 device1
+      1 device2
+First entry : 2026-02-01 07:50:38
+Last entry  : 2026-02-01 07:52:12
+-------------------------------------------
