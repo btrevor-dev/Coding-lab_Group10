@@ -82,7 +82,8 @@ echo "Anomalies (outside $min_th-$max_th):"
 if [ -z "$anomalies" ]; then
     echo "None detected"
 else
-    echo "$anomalies"
+	echo "Anomalies loaded 100%..(hidden).."    
+#echo "$anomalies"
 fi
 
 # Append results to report file
@@ -100,12 +101,12 @@ fi
     echo "Statistics:"
     echo "$stats"
     echo
-    echo "Anomalies (outside $min_th-$max_th):"
-    if [ -z "$anomalies" ]; then
-        echo "None detected"
-    else
-        echo "$anomalies"
-    fi
+    #echo "Anomalies (outside $min_th-$max_th):"
+    #if [ -z "$anomalies" ]; then
+        #echo "None detected"
+    #else
+        #echo "$anomalies"
+    #fi
     echo "-------------------------------------------"
     echo
 } >> "$report_file"
