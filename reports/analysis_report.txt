@@ -1,0 +1,8 @@
+Analysis run on: Mon 02 Feb 2026 07:46:41 AM PST
+Log file analyzed: hospital_data/active_logs/heart_rate.log
+Device activity count:
+    206 HeartRate_Monitor_A
+    205 HeartRate_Monitor_B
+First entry : 2026-01-28 13:06:36
+Last entry  : 2026-01-28 13:10:19
+-------------------------------------------
