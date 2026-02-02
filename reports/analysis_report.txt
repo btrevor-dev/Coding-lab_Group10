@@ -19,9 +19,9 @@ fi
 
 # Map choice to log file
 case $choice in
-    1) logfile="hospital_data/active_logs/heart_rate.log" ;;
-    2) logfile="hospital_data/active_logs/temperature.log" ;;
-    3) logfile="hospital_data/active_logs/water_usage.log" ;;
+    1) logfile="/hospital_data/active_logs/heart_rate.log" ;;
+    2) logfile="/hospital_data/active_logs/temperature.log" ;;
+    3) logfile="/hospital_data/active_logs/water_usage.log" ;;
 esac
 
 # Check if log file exists
