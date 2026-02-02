@@ -31,7 +31,7 @@ if [ ! -f "$logfile" ]; then
 fi
 
 # Create reports directory if missing
-mkdir -p reports
+mkdir -p hospital_data/reports
 
 echo
 echo "Analyzing $logfile ..."
@@ -60,8 +60,8 @@ echo "$device_counts"
 echo "First entry : $first_entry"
 echo "Last entry  : $last_entry"
 echo "-------------------------------------------"
-} >> reports/analysis_report.txt
+} >> hospital_data/reports/analysis_report.txt
 
 echo
-echo "Analysis appended to reports/analysis_report.txt"
+echo "Analysis appended to hospital_data/reports/analysis_report.txt"
 echo "Analysis completed successfully."
