@@ -1,1 +1,1 @@
-The first script archive_logs.sh lets a user choose and archive one of several system monitoring log files. It saves the logs with timestamps for safe storage while ensuring the monitoring process continues without interruption.
+The first script archive_logs.sh lets a user choose and archive one of several system monitoring log files. It saves the logs with timestamps for safe storage and immediately creates a new empty log file to ensure continuous monitoring without interruption .
